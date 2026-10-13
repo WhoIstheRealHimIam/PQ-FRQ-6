@@ -1,0 +1,24 @@
+// Importing necessary classes
+// - ArrayList and List are used to store and manage the permutations
+
+// Define the class 'Permutations' to implement the logic for generating all permutations
+// Note: The filename should be 'Permutations.java' because the public class is named 'Permutations'
+
+// Main method 'permute' - This is the entry point for generating permutations
+// - It accepts an integer array 'nums' as input
+// - The helper function is called with the initial index and an empty list to store the permutations
+// - The function returns a List of List<Integer> containing all the permutations of the input array
+
+// Helper method 'helper' - This function generates permutations using backtracking
+// - It recursively builds the permutations by adding one element at a time
+// - The method swaps elements in the array to explore different possibilities
+// - The function backtracks by undoing the swap and removing the last added element from the list
+
+// Swap method 'swap' - Swaps two elements in the array
+// - This is used to rearrange the elements during the permutation generation process
+
+// Example Input and Output:
+// Input: [1, 2, 3]
+// Output: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
+
+// IMPORTANT: Save this file as **Permutations.java** since the public class 'Permutations' matches the filename.

@@ -1,0 +1,27 @@
+// Importing necessary classes for input handling
+// - List, ArrayList, Set, and HashSet are used to store and manage the permutations
+
+// Define the class 'PermuteUnique' to implement the logic for generating all unique permutations
+// Note: The filename should be 'PermuteUnique.java' because the public class is named 'PermuteUnique'
+
+// Main method 'permuteUnique' - This is the entry point for generating unique permutations
+// - It accepts an integer array 'nums' as input
+// - The helper function is called with the initial index and an empty list to store the permutations
+// - The function returns a List of List<Integer> containing all unique permutations of the input array
+
+// Helper method 'helper' - This function generates unique permutations using backtracking
+// - It recursively builds the permutations by adding one element at a time
+// - The method swaps elements in the array to explore different possibilities
+// - The function backtracks by undoing the swap and removing the last added element from the list
+
+// Swap method 'swap' - Swaps two elements in the array
+// - This is used to rearrange the elements during the permutation generation process
+
+// Handling of duplicates is done by checking if the current element is the same as the previous one
+// - If it is, the current element is skipped to avoid generating the same permutation again
+
+// Example Input and Output:
+// Input: [1, 1, 2]
+// Output: [[1, 1, 2], [1, 2, 1], [2, 1, 1]]
+
+// IMPORTANT: Save this file as **UniquePermutation.java** since the public class 'PermuteUnique' matches the filename.
